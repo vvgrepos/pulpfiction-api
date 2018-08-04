@@ -1,9 +1,8 @@
 const express = require('express');
 const app = express();
 const router = express.Router();
-//Rotas
 const index = require('./routes/index');
-const personRoute = require('./routes/route');
+const mainRoute = require('./routes/route');
 app.use('/', index);
-app.use('/persons', personRoute);
+app.use('/persons', mainRoute);
 module.exports = app;
