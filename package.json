@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/vvgrepos/pulpfiction-api/issues"
   },
-  "homepage": "https://github.com/vvgrepos/pulpfiction-api#readme"
+  "homepage": "https://github.com/vvgrepos/pulpfiction-api#readme",
+  "dependencies": {
+    "pg": "^7.4.3"
+  }
 }
